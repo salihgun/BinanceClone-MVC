@@ -5,4 +5,12 @@
 //  Created by Salih Gün on 9.03.2024.
 //
 
-import Foundation
+import UIKit
+
+extension UIView {
+    func addSubviews(_ views: UIView...) {
+        for view in views {
+            addSubview(view)
+        }
+    }
+}

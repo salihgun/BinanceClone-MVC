@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+enum CryptoErrors: String, Error {
+    case networkError = "Unable to fetch data."
+    case parsingError = "Parsing error"
+}
